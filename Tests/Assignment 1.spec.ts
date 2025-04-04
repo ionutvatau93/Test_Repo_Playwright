@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
 
-const GITHUB_TOKEN = "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"; //Here I used my own token but I deleted it, and I can provide it if needed
+const GITHUB_TOKEN = "myToken"; //Here I used my own token but I deleted it, and I can provide it if needed
 const REPO_OWNER = "microsoft";
 const REPO_NAME = "vscode";
 const BASE_URL = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/issues`;
