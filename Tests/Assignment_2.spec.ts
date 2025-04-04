@@ -9,7 +9,7 @@ test.describe("GitHub Issue Management", () => {
     // Step 1: I navigate to Github and authenticate myself
     await page.goto(GITHUB_URL_LOGIN_PAGE);
     await page.fill("#login_field", "ionutvatau93"); // These are my real data, I will delete my password
-    await page.fill("#password", "Telecom@nd@93");
+    await page.fill("#password", "my own pasword");
     await page.click("input[value='Sign in']");
 
     // Step 2: I will navigate to the repository then to the assigned issue page
